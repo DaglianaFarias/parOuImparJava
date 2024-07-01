@@ -9,7 +9,7 @@ public class ParOuImpar {
     // Solicita ao usuário que digite um número.
     System.out.print("Digite um número: ");
 
-    // Lê o número digitado pelo usuário.
+    // Lê o número digitado pelo usuário e armazena na variável 'numero'
     int numero = scanner.nextInt();
 
     // Verifica se o número é par ou ímpar e imprime a mensagem correspondente.
@@ -19,7 +19,7 @@ public class ParOuImpar {
         System.out.println("O número " + numero + " é ímpar.");
     }
 
-    // Fecha o objeto Scanner
+    // Fecha o objeto Scanner.
     scanner.close();
   }
 }
